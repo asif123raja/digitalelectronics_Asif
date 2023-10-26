@@ -1,0 +1,52 @@
+#headingg{
+  text-align: center;
+}
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 2rem;
+  text-decoration:dashed
+}
+h2::before{
+  content: "\2022";
+}
+span::before{
+  content: "\2022";
+}
+.bi{
+  height: 12rem;
+  width: 17rem;
+  inline-size: 18vw;
+}
+.circuits {
+    margin: 0 auto;
+    width: 800px;
+  }
+  .circuit-diagram {
+    text-align: center;
+    display: flex;
+    text-wrap:balance;
+  }
+  p{
+    font-size: 2vw;
+  }
+.input2{
+  display: flex;
+  text-wrap:wrap;
+  justify-content:space-around;
+  }
+  .convert{
+    text-align: center;
+    justify-content:space-around;
+  }
+  #process{
+    cursor: pointer;
+  }
+.outbox1,.outbox2{
+  border: 1px solid yellow;
+  background-color: rgb(128, 226, 227);
+  border-radius: 20%;
+/*width:20%*/
+
+}

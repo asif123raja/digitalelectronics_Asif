@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Logic Circuits</title>
+  <link rel="stylesheet" href="st.css">
+</head>
+<body>
+  <h1 id="headingg">Digital Logic Circuits</h1>
+
+  <div class="circuits">
+    <h2>Half Adder</h2>
+    <div class="circuit-diagram">
+      <p>The half adder is a basic building block for more complex adder circuits. It performs binary addition of two single-bit inputs, A and B, and provides two outputs, SUM and CARRY.</p>
+      <img id="halfadder" class="bi" src="hadder.png" alt="Half Adder Circuit Diagram">
+      
+    </div>
+  <div class="input2">
+    <div class="innerinput">
+      <span>First input :</span>
+      <input type="checkbox" id="input1" class="childinput" placeholder=" input 0/1" required>
+    </div>
+    <div class="innerinput">
+      <span>Second input :</span>
+      <input type="checkbox" id="input2" class="childinput" placeholder=" input 0/1" required>
+    </div>
+  </div>
+<div class="convert">
+  <button id="process" >process</button>
+</div>
+<div class="input2">
+  <div class="innerinput">
+    <span class="out">sum output :</span>
+    <label for="" id="outbox1"></label>
+    </div>
+    <div class="innerinput">
+      <span class="out">sum output :</span>
+      <label for="" id="outbox2"></label>
+      </div>
+</div>
+
+    <h2>Full Adder</h2>
+    
+
+    <div class="circuit-diagram">
+      <p>The full adder is used to add three 1-bit binary numbers A, B, and carry C. It has three input states and two output states i.e., sum and carry.</p>
+      <img src="fadder.png" class="bi" alt="Full Adder Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>First input :</span>
+        <input type="checkbox" id="input3" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Second input :</span>
+        <input type="checkbox" id="input4" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Carry input :</span>
+        <input type="checkbox" id="input5" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+  <div class="convert">
+    <button id="process2" >process</button>
+  </div>
+  <div class="input2">
+    <div class="innerinput">
+      <span id="out3">sum output :</span>
+      <label for="" id="outbox3"></label>
+      </div>
+      <div class="innerinput">
+      <span id="out4">carry output :</span>
+      <label for="" id="outbox4"></label>
+      
+      </div>
+  </div>
+
+    <h2> Half Subtractor</h2>
+    
+
+    <div class="circuit-diagram">
+      <p>The full adder is used to add three 1-bit binary numbers A, B, and carry C. It has three input states and two output states i.e., sum and carry.</p>
+      <img src="hsub.png" class="bi" alt="Half Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>First input :</span>
+        <input type="checkbox" id="input6" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Second input :</span>
+        <input type="checkbox" id="input7" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+  <div class="convert">
+    <button id="process3" >process</button>
+  </div>
+  <div class="input2">
+    <div class="innerinput">
+      <span id="out5">Difference :</span>
+      <label for="" id="outbox5"></label>
+      </div>
+      <div class="innerinput">
+      <span id="out6">Borrow :</span>
+      <label for="" id="outbox6"></label>
+      
+      </div>
+  </div>
+    <h2>Full Subtractor</h2>
+     
+    <div class="circuit-diagram">
+      <p>The subtractor is used to subtract two 1-bit binary numbers A and B. It has two input states and two output states i.e., difference and borrow.</p>
+
+      <img src="fsub.png" class="bi" alt="Full Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>First input :</span>
+        <input type="checkbox" id="input8" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Second input :</span>
+        <input type="checkbox" id="input9" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Carry input :</span>
+        <input type="checkbox" id="input10" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+  <div class="convert">
+    <button id="process4" >process</button>
+  </div>
+  <div class="input2">
+    <div class="innerinput">
+      <span id="out7">sum output :</span>
+      <label for="" id="outbox7"></label>
+      </div>
+      <div class="innerinput">
+      <span id="out8">carry output :</span>
+      <label for="" id="outbox8"></label>
+      
+      </div>
+  </div>
+    <h2> 2*4 decoder</h2>
+    
+
+    <div class="circuit-diagram">
+      <p>The multiplexer is a circuit that selects one input signal and sends it to the output. It has two or more input signals, a selector signal, and one output signal.</p>
+      <img src="24decoder.png" class="bi" alt=" 2*4 decoder Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>First input :</span>
+        <input type="checkbox" id="input11" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Second input :</span>
+        <input type="checkbox" id="input12" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+  <div class="convert">
+    <button id="process5" >process</button>
+  </div>
+  <div class="input2">
+    <div class="innerinput">
+      <span id="out9">D0 :</span>
+      <label for="" id="outbox9"></label>
+      </div>
+      <div class="innerinput">
+      <span id="out10">D1 :</span>
+      <label for="" id="outbox10"></label> 
+      </div>
+      <div class="innerinput">
+        <span id="out11">D2 :</span>
+        <label for="" id="outbox11"></label>
+      </div>
+      <div class="innerinput">
+        <span id="out12">D3 :</span>
+        <label for="" id="outbox12"></label>
+      </div>
+  </div>
+    <h2> 3*8 decoder</h2>
+    
+
+    <div class="circuit-diagram">
+      <p>The multiplexer is a circuit that selects one input signal and sends it to the output. It has two or more input signals, a selector signal, and one output signal.</p>
+      <img src="38decoder.png" class="bi" alt=" 3*8 decoder Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>First input :</span>
+        <input type="checkbox" id="input13" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Second input :</span>
+        <input type="checkbox" id="input14" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Second input :</span>
+        <input type="checkbox" id="input15" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+  <div class="convert">
+    <button id="process6" >process</button>
+  </div>
+  <div class="input2">
+    <div class="innerinput">
+      <span class="out9">D0 :</span>
+      <label for="" id="outbox13"></label>
+      </div>
+      <div class="innerinput">
+      <span class="out10">D1 :</span>
+      <label for="" id="outbox14"></label> 
+      </div>
+      <div class="innerinput">
+        <span class="out11">D2 :</span>
+        <label for="" id="outbox15"></label>
+      </div>
+      <div class="innerinput">
+        <span class="out12">D3 :</span>
+        <label for="" id="outbox16"></label>
+      </div>
+      <div class="innerinput">
+        <span class="out9">D4 :</span>
+        <label for="" id="outbox17"></label>
+        </div>
+        <div class="innerinput">
+        <span class="out10">D5 :</span>
+        <label for="" id="outbox18"></label> 
+        </div>
+        <div class="innerinput">
+          <span class="out11">D6 :</span>
+          <label for="" id="outbox19"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out12">D7 :</span>
+          <label for="" id="outbox20"></label>
+        </div>
+  </div>
+
+    <h2> 2*1 Multiplexer</h2>
+    
+
+    <div class="circuit-diagram">
+      <p>The multiplexer is a circuit that selects one input signal and sends it to the output. It has two or more input signals, a selector signal, and one output signal.</p>
+      <img src="2mux.png" class="bi" alt=" 2*1 Multiplexer Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>First input :</span>
+        <input type="checkbox" id="input16" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Second input :</span>
+        <input type="checkbox" id="input17" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Select Line input :</span>
+        <input type="checkbox" id="input18" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+  <div class="convert">
+    <button id="process7" >process</button>
+  </div>
+  <div class="input2">
+      <div class="innerinput">
+        <span class="out21">Output :</span>
+        <label for="" id="outbox21"></label>
+      </div>
+  </div>
+    <h2> 4*1 Multiplexer</h2>
+    
+
+    <div class="circuit-diagram">
+      <p>The multiplexer is a circuit that selects one input signal and sends it to the output. It has two or more input signals, a selector signal, and one output signal.</p>
+      <img src="4mux.png" class="bi" alt=" 4*1 Multiplexer Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>First input :</span>
+        <input type="checkbox" id="input19" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Second input :</span>
+        <input type="checkbox" id="input20" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Third input :</span>
+        <input type="checkbox" id="input21" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Fourth input :</span>
+        <input type="checkbox" id="input22" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Select Line input1 :</span>
+        <input type="checkbox" id="input23" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Select Line input2 :</span>
+        <input type="checkbox" id="input100" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+  <div class="convert">
+    <button id="process8" >process</button>
+  </div>
+  <div class="input2">
+      <div class="innerinput">
+        <span class="out21">Output :</span>
+        <label for="" id="outbox22"></label>
+      </div>
+  </div>
+    <h2> 8*1 Multiplexer</h2>
+    
+
+    <div class="circuit-diagram">
+      <p>The multiplexer is a circuit that selects one input signal and sends it to the output. It has two or more input signals, a selector signal, and one output signal.</p>
+      <img src="8mux.png" class="bi" alt=" 8*1 Multiplexer Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>1st input :</span>
+        <input type="checkbox" id="input24" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>2mux input :</span>
+        <input type="checkbox" id="input25" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>3rd input :</span>
+        <input type="checkbox" id="input26" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>4th input :</span>
+        <input type="checkbox" id="input27" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>5th input :</span>
+        <input type="checkbox" id="input28" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>6th input :</span>
+        <input type="checkbox" id="input29" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>7th input :</span>
+        <input type="checkbox" id="input30" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>8th input :</span>
+        <input type="checkbox" id="input31" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>S1 :</span>
+        <input type="checkbox" id="input32" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>S2 :</span>
+        <input type="checkbox" id="input33" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>S3 :</span>
+        <input type="checkbox" id="input34" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+  <div class="convert">
+    <button id="process9" >process</button>
+  </div>
+  <div class="input2">
+      <div class="innerinput">
+        <span class="out21">Output :</span>
+        <label for="" id="outbox23"></label>
+      </div>
+  </div>
+
+    <h2> 1*2 Demultiplexer</h2>
+    
+
+    <div class="circuit-diagram">
+      <p>The demultiplexer is a circuit that takes one input signal and distributes it to one of several output signals. It has one input signal, a selector signal, and two or more output signals.</p>
+      <img src="2demux.png" class="bi" alt=" 1*2 Demultiplexer Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>Input :</span>
+        <input type="checkbox" id="input35" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Select Line :</span>
+        <input type="checkbox" id="input36" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+    <div class="convert">
+      <button id="process10" >process</button>
+    </div>
+    <div class="input2">
+        <div class="innerinput">
+          <span class="out21">Y1 :</span>
+          <label for="" id="outbox24"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y0 :</span>
+          <label for="" id="outbox25"></label>
+        </div>
+    </div>
+    <h2> 1*4 Demultiplexer</h2>
+    
+
+    <div class="circuit-diagram">
+      <p>The demultiplexer is a circuit that takes one input signal and distributes it to one of several output signals. It has one input signal, a selector signal, and two or more output signals.</p>
+      <img src="4demux.png.png" class="bi" alt=" 1*4 Demultiplexer Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>Input :</span>
+        <input type="checkbox" id="input37" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Select Line1:</span>
+        <input type="checkbox" id="input38" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Select Line0:</span>
+        <input type="checkbox" id="input39" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+    <div class="convert">
+      <button id="process11" >process</button>
+    </div>
+    <div class="input2">
+        <div class="innerinput">
+          <span class="out21">Y3 :</span>
+          <label for="" id="outbox26"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y2 :</span>
+          <label for="" id="outbox27"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y1 :</span>
+          <label for="" id="outbox28"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y0 :</span>
+          <label for="" id="outbox29"></label>
+        </div>
+    </div>
+    <h2> 1*8 Demultiplexer</h2>
+    
+
+    <div class="circuit-diagram">
+      <p>The demultiplexer is a circuit that takes one input signal and distributes it to one of several output signals. It has one input signal, a selector signal, and two or more output signals.</p>
+      <img src="8demux.png" class="bi" alt=" 1*8 Demultiplexer Circuit Diagram">
+    </div>
+    <div class="input2">
+      <div class="innerinput">
+        <span>Input :</span>
+        <input type="checkbox" id="input40" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Select Line2:</span>
+        <input type="checkbox" id="input41" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Select Line1:</span>
+        <input type="checkbox" id="input42" class="childinput" placeholder=" input 0/1" required>
+      </div>
+      <div class="innerinput">
+        <span>Select Line0:</span>
+        <input type="checkbox" id="input43" class="childinput" placeholder=" input 0/1" required>
+      </div>
+    </div>
+    <div class="convert">
+      <button id="process12" >process</button>
+    </div>
+    <div class="input2">
+        <div class="innerinput">
+          <span class="out21">Y7 :</span>
+          <label for="" id="outbox30"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y6 :</span>
+          <label for="" id="outbox31"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y5 :</span>
+          <label for="" id="outbox32"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y4 :</span>
+          <label for="" id="outbox33"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y3 :</span>
+          <label for="" id="outbox34"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y2 :</span>
+          <label for="" id="outbox35"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y1 :</span>
+          <label for="" id="outbox36"></label>
+        </div>
+        <div class="innerinput">
+          <span class="out21">Y0 :</span>
+          <label for="" id="outbox37"></label>
+        </div>
+    </div>
+  </div>
+
+  <script src="java.js"></script>
+</body>
+</html>
